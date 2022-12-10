@@ -31,7 +31,7 @@ public class program {
 		
 		System.out.println("Print TEST 2 Seller find by Department");
 		
-		List<Seller> list = sellerDao.findByDepartment(new Department(2, null));
+		List<Seller> list = sellerDao.findAll();
 		
 		for(Seller obj : list) {
 			System.out.println(obj);
